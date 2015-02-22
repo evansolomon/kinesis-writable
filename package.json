@@ -1,0 +1,21 @@
+{
+  "name": "kinesis-writable",
+  "version": "1.0.0",
+  "description": "Write newline-delimited data to Kinesis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "coffee index.coffee",
+    "prepublish": "coffee -c index.coffee"
+  },
+  "author": "Evan Solomon",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "aws-sdk": "^2.1.13",
+    "sculpt": "^0.1.6",
+    "simul": "^0.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  }
+}
